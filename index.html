@@ -4,14 +4,22 @@
 <head>
   <meta charset="utf-8">
   <title>Amelia Loves Her Pigs!</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, height=content-height initial-scale=1.0" />
 
   <style>
     #pigs {
-      position: sticky;
-      padding: 10px 10px 10px 10px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
 
+    }
 
+    #container {
+      height: 80vh;
+      min-width: 80vh;
+      /* position: relative;
+      left: 50%;
+      transform: translateX(-50%); */
     }
 
     #top {
@@ -50,16 +58,15 @@
   <h1 id="nds-title">Amelia Loves Her Pigs!</h1>
 </div>
 
-<video autoplay loop muted playsinline>
-  <source src="amelia.webm" type="video/webm">
-  <source src="amelia.mp4" type="video/mp4">
+<div id="container">
+  <video id="pigs" autoplay loop muted playsinline>
+    <source src="amelia.webm" type="video/webm">
+    <source src="amelia.mp4" type="video/mp4">
 
-
-  Your browser does not support HTML5 video.
-  <a href="amelia.gif">Click here to view original GIF</a>
-</video>
-
-
+    Your browser does not support HTML5 video.
+    <a href="amelia.gif">Click here to view original GIF</a>
+  </video>
+</div>
 
 </body>
 
