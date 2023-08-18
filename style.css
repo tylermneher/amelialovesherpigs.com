@@ -5,7 +5,7 @@
 } */
 
 #top {
-  padding: 10px 10px 10px 10px;
+  padding: 20px 10px 10px 10px;
 }
 body {
   margin: 0;
@@ -14,9 +14,9 @@ body {
 
 #pigs {
   position: fixed;
-  top: 50%;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
 }
 
 h1 {
